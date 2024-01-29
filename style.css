@@ -1545,9 +1545,9 @@ option:first {
         margin-inline-start: 0px;
         margin-inline-end: 0px;
         padding-inline-start: 0px;
-        width: auto;
+        width: 100%;
         position: relative;
-        left: -35px;
+        left: -20px;
         overflow-x: visible;
     }
     ul li h2 {
@@ -1561,7 +1561,7 @@ option:first {
         margin: 0px;
     }
      .jobHighlights .sendSimilarContent {
-        display: block;
+        display: flex;
         height: 36px;
         justify-content: center;
         margin: 0px 0px;
@@ -1677,7 +1677,7 @@ option:first {
         position: absolute;
         display: block;
         bottom: 45px;
-        top: 87vh;
+        top: 85vh;
         left: -15px;
         width: 113%;
         background-color: #096eb6;
