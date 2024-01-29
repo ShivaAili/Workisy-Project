@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ez1Bg2XAZl9eAtN5Ce/Z9xHv19L8pGq0LtWNO7V7WQFehEvaNIdeDpO2TCpKoHtd" crossorigin="anonymous"> -->
+    <script
+    src="https://kit.fontawesome.com/bccd922fb7.js"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="col-md-12 col-xs-12 col-lg-12" style="padding: 0px;">
+        <div class="contact-header col-md-12 col-xs-12">
+            <div style="padding-top: 20px;"><!-- <p class="homeHeading"><a class="homeHeading" href="/">Home</a> &gt; Contact Us</p> -->
+                <div class="breadcrumbs homeHeading">
+                    <ol itemscope="" itemtype="https://schema.org/BreadcrumbList" style="position: relative;left: -29px " class="breadcrumbSchema homeHeading">
+                        <li class="homeHeading" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                            <a title="Home" class="homeHeading color-none" itemprop="item" href="https://www.freshersworld.com/">
+                                <span itemprop="name" class="breadcrumbSpan homeHeading">Home</span>
+                            </a>
+                            <meta itemprop="position" content="1">&nbsp;&gt;&nbsp;
+                        </li>
+                        <li class="homeHeading" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                            <span itemprop="name" class="color-disabled breadcrumbSpan homeHeading">Contact Us</span>
+                            <meta itemprop="position" content="2">
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="subHeader">
+                <h1>Get In Touch Fast</h1>
+            </div>
+            <p class="subHeader-content">We Are Here For Your Help</p>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="main-container">
+            <div class="sub-container-contact">
+            <div class="left-side-address-container" >             
+                <div class="contact contact1 border-cont2">
+                    <div class="side-border fromCenter" style="background:#E9ADE9 0% 0% no-repeat padding-box;"></div>
+                    <div class="contact-data">
+                        <h2 class="contact-heading">Address</h2>
+                        <i class="fa fa-home" style="font-size:24px; width:26px; height:19px"></i>
+                        <!-- <img width="26px" height="19px" src="https://d2zxo3dbbqu73w.cloudfront.net/fwasset-live/8e24d8e9/images/mail-box.png"> -->
+                        <a class="mail-url" href="#">Gachibowli, Hyderabad.</a>
+                    </div>
+                </div>
+                <div class="contact contact2 border-cont2">
+                    <div class="side-border fromCenter" style="background:#97B1FA 0% 0% no-repeat padding-box;"></div>
+                    <div class="contact-data">
+                        <h2 class="contact-heading">Email Address:</h2>
+                        <img width="26px" height="19px" src="https://d2zxo3dbbqu73w.cloudfront.net/fwasset-live/8e24d8e9/images/mail-box.png">
+                        <a class="mail-url" href="#">support@workisy.com</a>
+                    </div>
+                </div>
+                <div class="contact contact3 border-cont3">
+                    <div class="side-border fromCenter" style="background:#F8CB89 0% 0% no-repeat padding-box;"></div>
+                    <div class="contact-data">
+                        <h2 class="contact-heading">Phone</h2>
+                        <i class="fa fa-phone" style="font-size:24px; width:26px; height:19px"></i>
+                        <!-- <img width="26px" height="19px" src="https://d2zxo3dbbqu73w.cloudfront.net/fwasset-live/8e24d8e9/images/mail-box.png"> -->
+                        <a class="mail-url" href="#">+91 8919880932</a>
+                    </div>
+                </div>
+            </div>
+                <iframe class="map" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2673971419213!2d78.351735275948!3d17.446911201086202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93e1cd2b5181%3A0x6953abcde44fb0fc!2sAPPIT%20Software%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1706161667472!5m2!1sen!2sin" 
+                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="form-block">
+                <div class="form">
+                    <form method="post" action="/contactus" id="contact-us-register" class="contact_form form-horizontal left_Content_contact" role="form">
+                        <input type="hidden" name="csrf_token" id="csrf_token" value="d1paVmhwdnFNWFJsdU9wckNGWUxCWnVuVEQxYjRFMDcJ1y4cWD5FwzfwZo76EN8oMBl0AyCwtecr-z4Bt_lcrw==">
+                        <h2 class="contact-form-heading">Fill out the form below and we’ll get your questions answered.</h2>
+                        <div class="form-group" id="name_alert_field">
+                            <input name="name" class="form-control contact-name" id="name" type="input" value="" placeholder="Enter Your Name" onfocusout="validate_input('#name')">
+                            <!-- <label class="contact-label" for="name">Name<span class="red">*</span></label> -->
+                            <div class=" error-msg" id="name_error">Enter your name</div>
+                        </div>
+                        <div class="form-group margin-30" id="email_alert_field">
+                            <input type="text" name="email" id="email" value="" autocomplete="off" class=" form-control" placeholder="Enter your email id" onfocusout="validate_input('#email','email')">
+                            <!-- <label class="contact-label" for="email">Email ID<span class="red">*</span></label> -->
+                            <div class=" error-msg" id="email_errorpop">Enter your correct email id</div>
+                        </div>
+                        <div class="form-group margin-30" id="num_alert_field">
+                            <input name="mobile" id="mobile" class="form-control" type="tel" value="" maxlength="10" placeholder="Enter your number" onfocusout="validate_input('#mobile','mobile')">
+                            <!-- <label class="contact-label" for="mobile">Mobile Number<span class="red">*</span></label> -->
+                            <div class=" error-msg" id="mobile_error">Enter your correct number</div>
+                        </div>
+                        <div class="form-group margin-30" id="sub_alert_field">
+                            <input name="subject" id="subject" class="form-control" type="input" value="" placeholder="Enter your Subject" onfocusout="validate_input('#mobile','mobile')">
+                            <!-- <label class="contact-label" for="mobile">Mobile Number<span class="red">*</span></label> -->
+                            <div class=" error-msg" id="subject_error">Enter your subject</div>
+                        </div>
+                         
+                        <div class="form-group margin-30">
+                            <textarea style="height: 139px;" placeholder="Enter details" type="text" name="details" id="details" value="" autocomplete="off" class=" form-control" onfocusout="validate_input('#details','details')"></textarea>
+                            <!-- <label class="contact-label" for="details">Details<span class="red">*</span></label> -->
+                            <div class=" error-msg" id="details_errorpop">Enter Details Here</div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-2 col-sm-2 contact_text">
+                                <label></label>
+                                <span class="required"></span>
+                            </div>
+                            <div class="col-md-10 col-sm-10">
+                                <script src="https://www.google.com/recaptcha/api.js"></script>
+                                <div id="enable_capcha">
+                                    <div class="g-recaptcha" data-sitekey="6LeXhTUUAAAAAIwfzMolaaGq4wcWLOMeaB-IySyX">
+                                        <div style="width: 250px; height: 78px;">
+                                            <div>
+                                                <iframe title="reCAPTCHA" class="captcha-container" role="presentation" name="a-jp5a1iz6ex2k" frameborder="0" scrolling="no" 
+                                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" 
+                                                src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeXhTUUAAAAAIwfzMolaaGq4wcWLOMeaB-IySyX&amp;co=aHR0cHM6Ly93d3cuZnJlc2hlcnN3b3JsZC5jb206NDQz&amp;hl=en&amp;v=QUpyTKFkX5CIV6EF8TFSWEif&amp;size=normal&amp;cb=fofr0fbmk5i"></iframe>
+                                            </div>
+                                            <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" 
+                                            style="width: 200px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                        </div>
+                                        <iframe style="display: none;"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" style=" width: fit-content; margin: auto;">
+                            <div class="col-md-3 col-md-offset-6 col-sm-offset-5 col-xs-offset-4">
+                                <!-- <input type="submit" name="submit" value="Submit" id="contact-reg" style="font-weight:bold;font-size: 14px;visibility:hidden;height:0px;"> -->
+                                <input type="button" name="submit" value="Submit" class="btn btn-warning contactbtn" id="contact-reg-button" style="background-color: #096eb6; color: #fff; margin-top: -25px;font-weight:bold;font-size: 14px;">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
