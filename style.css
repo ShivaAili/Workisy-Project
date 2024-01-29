@@ -1516,9 +1516,7 @@ option:first {
         margin-left: 15px;
         margin-top: -17px;
     }
-    body, html { 
-       overflow: hidden;
-    }
+    
     .job-detail-container{
         left: 10px;
         top: 10px;
