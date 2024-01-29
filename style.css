@@ -1454,7 +1454,7 @@ option:first {
         margin: -20px;
     }
     .c-main-search__form, .c-text-field {
-        width: 106%;
+        width: 282px;
     }  
     .c-main-search__cell {
         /* -webkit-box-flex: 2; */
