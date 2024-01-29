@@ -1474,7 +1474,7 @@ option:first {
     .grid-common__col-3 {
         max-width: 94%;
         font-size: 14px;
-        width: 300px;
+        width: 100%;
     }
     .job-cards{
         margin-left: 0px;
