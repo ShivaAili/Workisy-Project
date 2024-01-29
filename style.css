@@ -1454,7 +1454,7 @@ option:first {
         margin: -20px;
     }
     .c-main-search__form, .c-text-field {
-        width: 300px;
+        width: 105%;
     }  
     .c-main-search__cell {
         /* -webkit-box-flex: 2; */
@@ -1465,7 +1465,7 @@ option:first {
         margin-left: -9px;
     }
     .c-btn {
-        width: 300px;
+       width: 105%;
     }
     .flex-container {
         display: initial;
@@ -1478,6 +1478,7 @@ option:first {
     }
     .job-cards{
         margin-left: 0px;
+        width: 100%;
     }
     .c-main-header__bottom .c-main-search {
         padding-bottom: 0px;
@@ -1487,7 +1488,7 @@ option:first {
         width: fit-content;
     }
     .job-card-container {
-        width: 300px;
+        width: 94%;
         height: 379px;
         padding: 10px 13px 20px !important;
     
