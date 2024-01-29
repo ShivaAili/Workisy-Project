@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job details</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script
+    src="https://kit.fontawesome.com/bccd922fb7.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div class="job-detail-container">
+       <div class="job-card-container2" style="height: 270vh">
+        <div class="static-part" >
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <div>
+                    <a class="anchorForDetailPage" target="_blank">
+                        <h2>React Developer</h2>
+                    </a>
+                    <p class="company-name">Peoplefy Infosolutions Pvt. Ltd. <span id="starMark">★</span> <span class="rate">4.1</span> <span class="line"></span><span id="review">407 Reviews</span></p>
+                </div>
+                <div>
+                    <span class="imagewrap "><img src="https://img.naukimg.com/logo_images/groups/v1/215164.gif" class="logoImage" loading="lazy"></span>
+                </div>
+            </div>
+            <!-- <div class="job-points">
+                <p class="job-points1">
+                <i class="fa-solid fa-briefcase" aria-hidden="true"></i> Fresher
+                </p>
+                <p class="job-points2">₹ Not disclosed</p>
+                <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Delhi</p>
+            </div> -->
+            <div class="post-part">
+                <a target="_blank" class="but-orange apply_now" data-id="110920" data-location="" data-user_id="0"> Apply Now</a>
+                <div class="">
+                    <div class="like-unlike withoutLogin_ajax" data-post-id="110920" data-url="https://login.jobgrin.co.in/login/110920/update-post-view/c_Abc-Consultants_jobs_Avp-It-q80njeu9aB">
+                        <!-- <a href="https://login.jobgrin.co.in/login/110920/update-post-view/c_Abc-Consultants_jobs_Avp-It-q80njeu9aB" data-post-id="110920">
+                            <svg id="Capa_1" enable-background="new 0 0 512 512" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m376 31c-54.544 0-95.017 33.497-120 81.015-24.981-47.515-65.454-81.015-120-81.015-78.609 0-136 66.015-136 146.515 0 106.457 101.572 173.291 246.122 299.773 5.657 4.949 14.099 4.948 19.756 0 144.417-126.366 246.122-193.303 246.122-299.773 0-80.513-57.4-146.515-136-146.515zm-120 415.101c-133.122-115.635-226-179.872-226-268.586 0-66.424 45.57-116.515 106-116.515 58.252 0 94.351 53.947 105.542 93.996 4.036 14.61 24.83 14.675 28.916 0 11.043-39.518 46.723-93.996 105.542-93.996 60.43 0 106 50.091 106 116.515 0 88.765-93.03 153.083-226 268.586z"></path></svg>
+                        </a> -->
+                        <i class="fa-regular fa-bookmark"></i>
+                        <span>Save Job</span>
+                    </div>	
+                </div>
+            </div>
+            <div id="jobDetailMenu" class="jobDetailMenu" jobdetails="[object Object]">
+                <ul>
+                    <li class="selectedTab">
+                        <h2 onclick="changeTab(this)"><a  href="#jobHighlight">Highlights</a></h2>
+                    </li>
+                    <li class="">
+                        <h2 onclick="changeTab(this)"><a href="#jobDescription">Job Description</a></h2>
+                    </li>
+                    <li class="">
+                        <h2 onclick="changeTab(this)"><a href="#jobDetail">More Info</a></h2>
+                    </li>
+                    <li class="">
+                        <h2 onclick="changeTab(this)">Recruiter Information</h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="scroll-bar-container">
+            <div id="jobHighlight" class="jobHighlights">
+                    <div class="highlightContent">
+                        <div class="cardBody">
+                            <div class="bodyRow">
+                                <div class="iconContainer"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div> 
+                                <div class="details">Bengaluru / Bangalore</div>
+                            </div> 
+                            <div class="bodyRow"><div class="iconContainer"><i class="fa-solid fa-briefcase" ></i></div> 
+                            <div class="details">0-1 years</div> <!----> <!---->
+                        </div> 
+                        <div class="bodyRow jobAnalytics"><span class="btnHighighlights">
+                            <i class="fa fa-clock-o"></i>5 days ago</span> <span class="btnHighighlights"><i class="fas fa-eye"></i>1520</span> 
+                            <span class="btnHighighlights"><i class="fas fa-arrow-circle-right"></i>81 Applied</span>
+                        </div>
+                    </div> <!---->
+                </div> 
+                <div class="sendSimilarContent">
+                    <div class="leftSec">
+                        <label class="similarJobsText">Get notified for jobs based on your search when they are posted</label>
+                    </div> 
+                    <div class="rightSec createAlert">Send Similar Jobs
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <!-- <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label> -->
+                        </div>
+                        <!-- <label for="SEO-Results" class="toggleBtn"><input type="checkbox" id="SEO-Results" class="toggleInput"> 
+                            <div class="toggleFill"></div>
+                        </label> -->
+                    </div>
+                </div>
+            </div>
+
+            <div data-v-e80f6efc="" id="jobDescription" class="jobDescriptionContainer">
+                <div data-v-e80f6efc="" class="jobDescription"><div data-v-e80f6efc="" class="about-company">
+                    <div data-v-e80f6efc="" class="jobDescheading">Job Description</div> 
+                        <p data-v-e80f6efc="" class="jobDescInfo">Dear Applicant,
+                            <div>
+                                <br>
+                            </div>
+                            <div>We are looking for 2022/2023 Passed Out Freshers in our Organization based out in Bangalore.</div>
+                            <div><br>
+                            </div>
+                            <div> Job Responsibilities :<br>	Generate quotations based on customer enquiry via SAP system <br>	Register orders via SAP system <br>	Recommend compatible Festo products for technical queries 
+                                <br>	Providing technical solutions to customers in counter sales <br>	Respond to customer queries related to quotations, order, delivery schedules/despatch status etc <br>	Respond to customer calls related to quotations, delivery schedules/despatch status etc via CRM system <br>	Maintain daily track reports as per the template provided <br><br>
+                            </div>
+                            <div><br></div>
+                            <div>Interested Candidates please share you CV to <b>[HIDDEN TEXT]</b></div>
+                            <div><br></div>
+                            <div><br></div>
+                        </p>
+                    </div> <!---->
+                </div>
+            </div>
+            <div id="jobDetail">
+                <div id="jobSummary" class="summaryContainer">
+                    <label  class="sectionTitle" >More Info</label> 
+                    <div   class="jobInfo">
+                        <div class="jobTitle">
+                            <i class="fa-solid fa-briefcase jobDetailIcon"></i> 
+                            <p class="jobTitleName">Job Type</p>
+                        </div> 
+                        <div class="jobDesc">Permanent Job</div>
+                    </div> 
+                    <div class="jobInfo">
+                        <div class="jobTitle">
+                            <i class="fa fa-user jobDetailIcon"></i> 
+                            <p class="jobTitleName">Posted By</p>
+                        </div> 
+                        <div class="jobDesc">Harini</div>
+                    </div> 
+                    <div class="jobInfo">
+                        <div class="jobTitle"><i class="fa fa-group jobDetailIcon"></i> <p class="jobTitleName">Positions</p></div> 
+                        <div class="jobDesc">10+</div>
+                    </div> 
+                    <div class="jobInfo">
+                        <div class="jobTitle"><i class="fas fa-chalkboard-teacher jobDetailIcon"></i> <p class="jobTitleName">Skills</p></div> 
+                        <div class="skillSet">
+                            <div class="skillDesc">Freshers</div>
+                            <div class="skillDesc">Graduates</div>
+                            <div class="skillDesc">Graduate Fresher</div>
+                        </div>
+                    </div> 
+                    <div class="jobInfo">
+                        <div class="jobTitle"><i class="fas fa-user-graduate jobDetailIcon"></i> <p class="jobTitleName">Education</p></div>
+                        <div class="jobDesc jobEduSpacing">Bachelor Of Technology (B.Tech/B.E)</div>
+                        <div class="jobDesc jobEduSpacing">Bachelor of Science (B.Sc)</div>
+                    </div>
+                    <div class="jobInfo">
+                        <div class="jobTitle"><i class="fas fa-calendar-day jobDetailIcon"></i> <p class="jobTitleName">Apply Before</p></div> 
+                        <div class="jobDesc">27-01-2024</div>
+                    </div> 
+                </div>
+            </div>
+            <section class="styles_about-company__lOsvW">
+                <header><h2><a href="contactusPage.html" target="_blank">About company</a></h2></header>
+                <div class="styles_detail__U2rw4 styles_dang-inner-html___BCwh">Ford is a global company with shared ideals and a deep sense of family. From our earliest days as a pioneer of moderntransportation, we have sought to make the world a better place one that benefits lives, communities and the planet.We are here to provide the means for every person to move and pursue their dreams
+                </div>
+            </section>
+            <div class="bottom-button">
+                <button>APPLY NOW</button>
+              </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function changeTab(selectedTab) {
+            // Remove the 'selectedTab' class from all tabs
+            var tabs = document.querySelectorAll('.jobDetailMenu ul li');
+            tabs.forEach(function (tab) {
+                tab.classList.remove('selectedTab');
+            });
+    
+            // Add the 'selectedTab' class to the clicked tab
+            selectedTab.parentNode.classList.add('selectedTab');
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
