@@ -1673,7 +1673,8 @@ option:first {
         /* Additional styling for the button */
         position: absolute;
         display: block;
-        bottom: 0;
+        bottom: 45px;
+        top: 87vh;
         left: -15px;
         width: 113%;
         background-color: #096eb6;
