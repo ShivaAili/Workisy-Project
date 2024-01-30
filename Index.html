@@ -733,26 +733,43 @@
    </div>
 </div>
         <script>
-            if (window.innerWidth <= 767) {
-                var content = document.getElementById("filter-container");
-                var icon = document.getElementById("filter-icon");
+           if (window.innerWidth <= 767) {
+            var sections = document.querySelectorAll('.c-filter-group__section');
+            var icon = document.getElementById("filter-icon");
 
-                content.style.display = "block"; // Show the content by default on mobile
-                icon.classList.remove("fa-filter");
-                icon.classList.add("fa-close");
-            //     var content = document.getElementById("filter-container");
-            // var icon = document.getElementById("filter-icon");
+            function toggleFilterContent() {
+                sections.forEach(function(section) {
+                    if (section.style.display === "none" || section.style.display === "") {
+                        section.style.display = "block";
+                    } else {
+                        section.style.display = "none";
+                    }
+                });
 
-            // if (content.style.display === "none" || content.style.display === "") {
-            //     content.style.display = "block";
-            //     icon.classList.remove("fa-filter");
-            //     icon.classList.add("fa-close");
-            // } else {
-            //     content.style.display = "none";
-            //     icon.classList.remove("fa-close");
-            //     icon.classList.add("fa-filter");
-            // }
+                // Toggle the filter icon
+                icon.classList.toggle("fa-filter");
+                icon.classList.toggle("fa-close");
             }
+        }
+        //    if (window.innerWidth <= 767) {
+        //         var sections = document.querySelectorAll('.c-filter-group__section');
+        //         var icon = document.getElementById("filter-icon");
+
+        //         // Show/hide content on click
+        //         document.querySelector('.c-filter-group__header').addEventListener('click', function() {
+        //             sections.forEach(function(section) {
+        //                 if (section.style.display === "none" || section.style.display === "") {
+        //                     section.style.display = "block";
+        //                 } else {
+        //                     section.style.display = "none";
+        //                 }
+        //             });
+
+        //             // Toggle the filter icon
+        //             icon.classList.toggle("fa-filter");
+        //             icon.classList.toggle("fa-close");
+        //         });
+        //     }
             function toggleContent() {
               var content = document.getElementById("collapse-_3IcD7Wn");
               var icon = document.querySelector(".c-title-collapse__title i");
