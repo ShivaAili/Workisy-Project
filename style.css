@@ -1703,6 +1703,21 @@ option:first {
     .c-filter-group__section {
         display: none;
     }
+     #filter-container {
+        max-height: 60vh;
+        overflow-x: hidden; /* Set to 'hidden' to remove the horizontal scrollbar */
+        overflow-y: auto;
+        transition: max-height 0.3s ease-out;
+    }
+    
+    #filter-container::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    #filter-container::-webkit-scrollbar-thumb {
+        background-color: #096eb6;
+        border-radius: 6px;
+    }
 }
 
 
