@@ -1751,6 +1751,9 @@ option:first {
         background-color: #fff;
         z-index: 100;  */
     }
+     .job-detail-container{
+        position: sticky;
+    }
   
    
     
