@@ -1687,7 +1687,7 @@ option:first {
         position: fixed;
         display: block;
         bottom: 0px;
-        top: 94%;
+        top: 92%;
         left: 9px;
         width: 95%;
         background-color: #096eb6;
@@ -1740,7 +1740,6 @@ option:first {
         min-height: 178px;
         max-height: 178px;
         border-radius: 20px;
-        padding-top: 10px;
         background-color: #fff; 
         /* position: -webkit-sticky;
         position: sticky;
