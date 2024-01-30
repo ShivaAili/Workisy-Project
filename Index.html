@@ -48,9 +48,11 @@
                 <header class="c-filter-group__header">
                     <div class="c-filter-group__title">
                         <div class="c-h5">Filters</div>
+			<div><i class="fa fa-filter" id="filter-icon"></i></div>
                     </div>
                 </header>
                 <input type="hidden" name="query" value="Engineer">
+		<div id="filter-container">
                 <div class="c-filter-group__section">
                     <div class="c-title-collapse js-ft-container">    
                         <button type="button" class="js-ft-toggler c-title-collapse__title" onclick="toggleContent()" data-toggle="collapse" data-target="#collapse-_3IcD7Wn" aria-expanded="true">       
@@ -420,6 +422,7 @@
 
     </div></div>
     </div>
+   </div>
     </form>
                 
     </aside>
@@ -710,6 +713,14 @@
    </div>
 </div>
         <script>
+		  if (window.innerWidth <= 767) {
+	                var content = document.getElementById("filter-container");
+	                var icon = document.getElementById("filter-icon");
+	
+	                content.style.display = "block"; // Show the content by default on mobile
+	                icon.classList.remove("fa-filter");
+	                icon.classList.add("fa-close");
+		  }
             function toggleContent() {
               var content = document.getElementById("collapse-_3IcD7Wn");
               var icon = document.querySelector(".c-title-collapse__title i");
