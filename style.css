@@ -213,7 +213,7 @@ svg:not(:root) {
     padding-right: 10px;
 }
 .grid-common__col-3 {
-    max-width: 25%;
+    /* max-width: 25%; */
     width: 280px;
     font-size: 16px;
 }
@@ -558,7 +558,6 @@ button {
     font-weight: 500;
     line-height: 18px;
     color: #474d6a;
-    position: relative;
     display: flex;
     overflow: hidden;
     white-space: nowrap
@@ -620,7 +619,8 @@ a h2{
     margin-top: 13px;
     min-height: 18px;
     height: auto;
-    position: relative;
+    justify-content: space-between;
+    /* position: relative; */
     font-size: 17px;
 }
 .row6 .job-post-day {
@@ -633,7 +633,7 @@ a h2{
     display: inline-block;
     text-transform: capitalize;
     color: #474d6a;
-    position: absolute;
+    /* position: absolute; */
     right: 0;
 }
  .row6 .save-job-tag.ni-job-tuple-icon-srpSaveUnfilled:before {
@@ -1472,9 +1472,14 @@ option:first {
         left: 11px;
     }
     .grid-common__col-3 {
-        max-width: 94%;
+        /* max-width: 94%; */
         font-size: 14px;
-        width: 100%;
+        width: 17%;
+        position: fixed;
+        right: 18px;
+    }
+    .c-h5{
+        display: none;
     }
     .job-cards{
         margin-left: 0px;
