@@ -1670,7 +1670,7 @@ option:first {
         font-size: 16px !important;
     }
     .scroll-bar-container {
-        width: 100%;
+        width: 107%;
         max-height: 81vh !important;
     }
     .scroll-bar-container::-webkit-scrollbar {
