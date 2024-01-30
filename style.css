@@ -1680,6 +1680,18 @@ option:first {
     .bottom-button {
         /* Additional styling for the button */
         position: absolute;
+    display: block;
+    bottom: 27px;
+    top: 88vh;
+    /* left: -15px; */
+    width: 100%;
+    background-color: #096eb6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+/*         position: absolute;
         display: block;
         bottom: 45px;
         top: 85vh;
@@ -1690,7 +1702,7 @@ option:first {
         padding: 15px;
         text-align: center;
         margin-top: 10px;
-        border-radius: 10px
+        border-radius: 10px */
     }
     .bottom-button button{
         font-weight: 700;
