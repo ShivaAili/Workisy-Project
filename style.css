@@ -1586,7 +1586,7 @@ option:first {
     }
     .jobDescriptionContainer .jobDescription {
         font-size: 12px;
-        padding-top: 26px;
+        padding-top: 0px;
     }
     .contact-header{
         margin: 23px;
@@ -1675,9 +1675,9 @@ option:first {
     }
     .scroll-bar-container {
         width: 107%;
-        /* max-height: 81vh !important; */
         min-height: calc(100vh - 250px);
         max-height: calc(100vh - 250px)
+       
     }
     .scroll-bar-container::-webkit-scrollbar {
         width: 6px; /* Set the width of the scrollbar */
@@ -1687,7 +1687,7 @@ option:first {
         position: fixed;
         display: block;
         bottom: 0px;
-        top: 92%;
+        top: 90%;
         left: 9px;
         width: 95%;
         background-color: #096eb6;
@@ -1750,7 +1750,7 @@ option:first {
         background-color: #fff;
         z-index: 100;  */
     }
-     
+    
   
    
     
