@@ -1678,31 +1678,29 @@ option:first {
         height: 50px;
     }
     .bottom-button {
-        /* Additional styling for the button */
-        position: absolute;
+      /*  position: absolute;
     display: block;
     bottom: 27px;
     top: 86vh;
-    /* left: -15px; */
     width: 100%;
     background-color: #096eb6;
     color: white;
     padding: 15px;
     text-align: center;
     margin-top: 10px;
+    border-radius: 10px; */
+    position: fixed;
+    display: block;
+    bottom: 0px;
+    top: 89%;
+    left: 9px;
+    width: 95%;
+    background-color: #096eb6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
     border-radius: 10px;
-/*         position: absolute;
-        display: block;
-        bottom: 45px;
-        top: 85vh;
-        left: -15px;
-        width: 113%;
-        background-color: #096eb6;
-        color: white;
-        padding: 15px;
-        text-align: center;
-        margin-top: 10px;
-        border-radius: 10px */
     }
     .bottom-button button{
         font-weight: 700;
