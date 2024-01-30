@@ -1695,7 +1695,7 @@ option:first {
     .c-main-header__bottom, .c-main-header__navigation, .c-main-header__top {
         padding-left: 15px;
     }
-     #filter-container {
+    .c-filter-group__section {
         display: none;
     }
 }
