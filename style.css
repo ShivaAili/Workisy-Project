@@ -1602,7 +1602,7 @@ option:first {
         display: initial;
     }
     .contact {
-        width: 303px;
+        width: 100%;
     }
     .map {
         width: 298px;
