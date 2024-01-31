@@ -1602,10 +1602,10 @@ option:first {
         display: initial;
     }
     .contact {
-        width: 97%;
+        width: 100%;
     }
     .map {
-        width: 298px;
+        width: 97%;
         height: 400px;
         margin: 4px;
     }
@@ -1613,7 +1613,7 @@ option:first {
         position: relative;
         top: 53px;
         margin: 10px;
-        width: 299px;
+        width: 95%;
     }
     .form {
         padding: 18px 26px;
@@ -1622,7 +1622,7 @@ option:first {
         width: 264px;
     }
     .form-group input, .form-group select {
-        width: 243px;
+        width: 95%;
     }
     .rc-anchor-normal .rc-anchor-content {
         height: 74px !important;
@@ -1667,7 +1667,7 @@ option:first {
         margin-right: 6px;
     }
     .captcha-container{
-        width: 250px;
+        width: 104%;
     }
     .topstatinfo {
         margin: 25px !important;
@@ -1751,7 +1751,9 @@ option:first {
         z-index: 100;  */
     }
     
-  
+    .form-control {
+        width: 95%;
+    }
    
     
     
