@@ -569,7 +569,7 @@ button {
     padding: 10px 24px 20px;
     box-shadow: 0 6px 12px rgba(30,10,58,.04);
     background: #fff;
-    height: 285px;
+    height: 295px;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif !important;
     /* font-family: Satoshi,"Satoshi Fallback", sans-serif; */
@@ -579,6 +579,17 @@ button {
 } */
 a h2{
     font-weight: 600
+}
+.apply-btn{
+    background-color: #096eb6;
+    color: white;
+    border: none;
+    width: 81px;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 .company-name{
     font-weight: 700;
