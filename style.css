@@ -248,8 +248,8 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin-bottom: 0;
 }
 .c-filter-group__title {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -1443,7 +1443,9 @@ option:first {
     .bottom-button{
         display: none;
     }
-   
+    .mobile-jobFilter{
+        display: none;
+    }
 /* mobile responsive for job page */
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) { 
     
@@ -1454,8 +1456,11 @@ option:first {
         width: 103%;
         margin: -20px;
     }
+    .mobile-jobFilter{
+        display: initial;
+    }
     .c-main-search__form, .c-text-field {
-        width: 105%;
+        width: 107%;
     }  
     .c-main-search__cell {
         /* -webkit-box-flex: 2; */
@@ -1466,7 +1471,7 @@ option:first {
         margin-left: -9px;
     }
     .c-btn {
-       width: 105%;
+       width: 107%;
     }
     .flex-container {
         display: initial;
@@ -1475,9 +1480,11 @@ option:first {
     .grid-common__col-3 {
         /* max-width: 94%; */
         font-size: 14px;
-        width: 17%;
+        width: 19%;
+        top: 38%;
         position: fixed;
-        right: 6%;
+        right: -1%;
+
     }
     .c-h5{
         display: none;
@@ -1494,7 +1501,7 @@ option:first {
         width: fit-content;
     }
     .job-card-container {
-        width: 94%;
+        width: 95%;
         height: 379px;
         padding: 10px 13px 20px !important;
     
@@ -1753,6 +1760,9 @@ option:first {
     
     .form-control {
         width: 95%;
+    }
+    .w-gap-lg {
+        border-radius: 10px 0px 0px 10px;
     }
    
     
